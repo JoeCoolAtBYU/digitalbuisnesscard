@@ -8,20 +8,21 @@ export default function ContactInfo() {
       <h4 className="contact--title">Software Engineer</h4>
       <p className="contact--email">joecoolatbyu@hotmail.com</p>
       <div className="contact--buttons">
-        <div className="contact--email--btn">
-          <a href="mailto:joecoolatbyu@hotmail.com?subject=From%20Business%20Card">
+        <a href="mailto:joecoolatbyu@hotmail.com?subject=From%20Business%20Card">
+          <div className="contact--email--btn">
             <img src={EmailIcon} alt="button to send email" className="email--icon"/>
-          </a>
-          <p>Email</p>
-        </div>
+            <p>Email</p>
+          </div>
+        </a>
 
-        <div className="contact--linkedIn--btn">
-          <a href="https://www.linkedin.com/in/joshua-barnett-03b1107/">
+        <a href="https://www.linkedin.com/in/joshua-barnett-03b1107/">
+          <div className="contact--linkedIn--btn">
             <img src={linkedInIcon} alt="button to go to LinkedIn page" className="linkedin--icon"/>
-          </a>
-          <p>LinkedIn</p>
-        </div>
+            <p>LinkedIn</p>
+          </div>
+        </a>
       </div>
+
     </div>
   )
 }
