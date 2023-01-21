@@ -2,9 +2,6 @@
     text-align: center;
     color: white;
     font-family: inter, sans-serif;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*background: #23252C;*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -15,8 +12,6 @@
 
 body {
     background-color: #23252C;
-
-
 }
 
 .profile-photo {
@@ -24,31 +19,24 @@ body {
     height: 317px;
     left: 116px;
     top: 44px;
-
     border-radius: 10px 10px 0 0;
 }
 
-.contact{
+.contact {
     width: 317px;
     height: 399px;
     left: 116px;
     top: 361px;
-
     background: #1A1B21;
 }
 
 .contact--name {
-    /*width: 138px;*/
-    /*height: 20px;*/
     left: 155px;
     top: 401px;
-
     font-style: normal;
     font-weight: 700;
     font-size: 16.4401px;
     line-height: 20px;
-    /* identical to box height */
-
     color: #FFFFFF;
 }
 
@@ -57,7 +45,6 @@ body {
     font-weight: 400;
     font-size: 12.8px;
     line-height: 15px;
-
     color: #F3BF99;
 }
 
@@ -69,46 +56,34 @@ body {
     color: #F5F5F5;
 }
 
-.contact--buttons{
-    /* Auto layout */
+.contact--buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-
 }
 
 .contact--email--btn {
-    /* Button */
-
     box-sizing: border-box;
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-
     width: 115px;
     height: 34px;
     left: 151px;
     top: 468px;
-
-    /* white */
     background: #FFFFFF;
-    /* gray/300 */
     border: 1px solid #D1D5DB;
-    /* shadow/sm */
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 }
 
 .contact--linkedIn--btn {
-    /* Button */
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -116,20 +91,16 @@ body {
     align-items: center;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-
     width: 115px;
     height: 34px;
     left: 283px;
     top: 468px;
-
     background: #5093E2;
-    /* shadow/sm */
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 }
 
 .email--icon {
-    /* Icon */
     left: 10%;
     right: 10%;
     top: 20%;
@@ -139,53 +110,39 @@ body {
 }
 
 .linkedin--icon {
-    /* Icon/Font Awesome Free/Brands/L/linkedin */
     width: 16px;
     height: 16px;
-    /* Inside auto layout */
-    /*flex: none;*/
     order: 0;
     flex-grow: 0;
-    /* Vector */
     left: 8.33%;
     right: 8.33%;
     top: 8.33%;
     bottom: 8.33%;
 }
 
-.contact--email--btn > p{
-    /* Text */
+.contact--email--btn > p {
     width: 36px;
     height: 16px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    /* identical to box height, or 114% */
-    /* gray/700 */
     color: #374151;
-    /* Inside auto layout */
-    /*flex: none;*/
     order: 1;
     flex-grow: 0;
 }
-.contact--linkedIn--btn > p{
-     /* Text */
 
-     width: 57px;
-     height: 16px;
-
-     font-style: normal;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 16px;
-     /* identical to box height, or 114% */
-     color: #FFFFFF;
-     /* Inside auto layout */
-     /*flex: none;*/
-     order: 1;
-     flex-grow: 0;
- }
+.contact--linkedIn--btn > p {
+    width: 57px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    order: 1;
+    flex-grow: 0;
+}
 
 
 .social-icons {
@@ -193,332 +150,6 @@ body {
     height: 64px;
     left: 116px;
     top: 760px;
-
     background: #161619;
     border-radius: 0 0 10px 10px;
 }
-
-
-/*!* Twitter Icon *!*/
-
-/*position: absolute;*/
-/*left: 34.36%;*/
-/*right: 61.09%;*/
-/*top: 89.75%;*/
-/*bottom: 7.37%;*/
-
-/*background: #918E9B;*/
-
-
-/*!* Facebook Icon *!*/
-
-/*position: absolute;*/
-/*left: 43.27%;*/
-/*right: 52.18%;*/
-/*top: 89.75%;*/
-/*bottom: 7.37%;*/
-
-/*background: #918E9B;*/
-
-
-/*!* Instagram Icon *!*/
-
-/*position: absolute;*/
-/*left: 52.18%;*/
-/*right: 43.27%;*/
-/*top: 89.75%;*/
-/*bottom: 7.37%;*/
-
-/*background: #918E9B;*/
-
-
-/*!* GitHub Icon *!*/
-
-/*position: absolute;*/
-/*left: 61%;*/
-/*right: 34.45%;*/
-/*top: 89.8%;*/
-/*bottom: 7.32%;*/
-
-/*background: #918E9B;*/
-
-
-/*!* Group 143 *!*/
-
-/*position: absolute;*/
-/*width: 247px;*/
-/*height: 201px;*/
-/*left: 152px;*/
-/*top: 535px;*/
-
-
-
-/*!* I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn. *!*/
-
-/*position: absolute;*/
-/*width: 247px;*/
-/*height: 61px;*/
-/*left: 152px;*/
-/*top: 561px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 400;*/
-/*font-size: 10.24px;*/
-/*line-height: 150%;*/
-/*!* or 15px *!*/
-
-/*color: #DCDCDC;*/
-
-
-
-/*!* Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic. *!*/
-
-/*position: absolute;*/
-/*width: 247px;*/
-/*height: 61px;*/
-/*left: 152px;*/
-/*top: 675px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 400;*/
-/*font-size: 10.24px;*/
-/*line-height: 150%;*/
-/*!* or 15px *!*/
-
-/*color: #DCDCDC;*/
-
-
-
-/*!* About *!*/
-
-/*position: absolute;*/
-/*width: 242.71px;*/
-/*height: 21px;*/
-/*left: 152px;*/
-/*top: 535px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 700;*/
-/*font-size: 16px;*/
-/*line-height: 150%;*/
-/*!* or 24px *!*/
-
-/*color: #F5F5F5;*/
-
-
-
-/*!* Interests *!*/
-
-/*position: absolute;*/
-/*width: 242.71px;*/
-/*height: 21px;*/
-/*left: 152px;*/
-/*top: 649px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 700;*/
-/*font-size: 16px;*/
-/*line-height: 150%;*/
-/*!* or 24px *!*/
-
-/*color: #F5F5F5;*/
-
-
-
-/*!* Laura Smith *!*/
-
-/*position: absolute;*/
-/*width: 178.06px;*/
-/*height: 25.81px;*/
-/*left: 186px;*/
-/*top: 382px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 700;*/
-/*font-size: 25px;*/
-/*line-height: 30px;*/
-/*text-align: center;*/
-
-/*color: #FFFFFF;*/
-
-
-
-/*!* Frontend Developer *!*/
-
-/*position: absolute;*/
-/*width: 178.06px;*/
-/*height: 14.19px;*/
-/*left: 186px;*/
-/*top: 414px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 400;*/
-/*font-size: 12.8px;*/
-/*line-height: 15px;*/
-/*text-align: center;*/
-
-/*color: #F3BF99;*/
-
-
-
-/*!* laurasmith.website *!*/
-
-/*position: absolute;*/
-/*width: 228px;*/
-/*height: 16px;*/
-/*left: 161px;*/
-/*top: 437px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 400;*/
-/*font-size: 10.24px;*/
-/*line-height: 150%;*/
-/*!* identical to box height, or 15px *!*/
-/*text-align: center;*/
-
-/*color: #F5F5F5;*/
-
-
-
-/*!* Button *!*/
-
-/*box-sizing: border-box;*/
-
-/*!* Auto layout *!*/
-/*display: flex;*/
-/*flex-direction: row;*/
-/*justify-content: center;*/
-/*align-items: center;*/
-/*padding: 9px 13px 9px 11px;*/
-/*gap: 8px;*/
-
-/*position: absolute;*/
-/*width: 115px;*/
-/*height: 34px;*/
-/*left: 151px;*/
-/*top: 468px;*/
-
-/*!* white *!*/
-/*background: #FFFFFF;*/
-/*!* gray/300 *!*/
-/*border: 1px solid #D1D5DB;*/
-/*!* shadow/sm *!*/
-/*box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);*/
-/*border-radius: 6px;*/
-
-
-/*!* Mail *!*/
-
-/*width: 16px;*/
-/*height: 16px;*/
-
-
-/*!* Inside auto layout *!*/
-/*flex: none;*/
-/*order: 0;*/
-/*flex-grow: 0;*/
-
-
-/*!* Icon *!*/
-
-/*position: absolute;*/
-/*left: 10%;*/
-/*right: 10%;*/
-/*top: 20%;*/
-/*bottom: 20%;*/
-
-/*background: #1E1F26;*/
-
-
-/*!* Text *!*/
-
-/*width: 36px;*/
-/*height: 16px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 500;*/
-/*font-size: 14px;*/
-/*line-height: 16px;*/
-/*!* identical to box height, or 114% *!*/
-
-/*!* gray/700 *!*/
-/*color: #374151;*/
-
-
-/*!* Inside auto layout *!*/
-/*flex: none;*/
-/*order: 1;*/
-/*flex-grow: 0;*/
-
-
-/*!* Button *!*/
-
-/*!* Auto layout *!*/
-/*display: flex;*/
-/*flex-direction: row;*/
-/*align-items: flex-start;*/
-/*padding: 9px 16px;*/
-/*gap: 8px;*/
-
-/*position: absolute;*/
-/*width: 113px;*/
-/*height: 34px;*/
-/*left: 283px;*/
-/*top: 468px;*/
-
-/*background: #5093E2;*/
-/*!* shadow/sm *!*/
-/*box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);*/
-/*border-radius: 6px;*/
-
-
-/*!* Icon/Font Awesome Free/Brands/L/linkedin *!*/
-
-/*width: 16px;*/
-/*height: 16px;*/
-
-
-/*!* Inside auto layout *!*/
-/*flex: none;*/
-/*order: 0;*/
-/*flex-grow: 0;*/
-
-
-/*!* Vector *!*/
-
-/*position: absolute;*/
-/*left: 8.33%;*/
-/*right: 8.33%;*/
-/*top: 8.33%;*/
-/*bottom: 8.33%;*/
-
-/*background: #FFFFFF;*/
-
-
-/*!* Text *!*/
-
-/*width: 57px;*/
-/*height: 16px;*/
-
-/*font-family: 'Inter';*/
-/*font-style: normal;*/
-/*font-weight: 500;*/
-/*font-size: 14px;*/
-/*line-height: 16px;*/
-/*!* identical to box height, or 114% *!*/
-
-/*color: #FFFFFF;*/
-
-
-/*!* Inside auto layout *!*/
-/*flex: none;*/
-/*order: 1;*/
-/*flex-grow: 0;*/
