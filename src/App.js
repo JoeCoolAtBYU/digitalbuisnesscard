@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import ContactInfo from "./components/ConcatInfo";
 import SocialIcons from "./components/SocialIcons";
 import {useState, useEffect} from "react";
+import DarkModeToggle from "react-dark-mode-toggle";
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -19,7 +20,13 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
-      <button onClick={toggleTheme}>ToggleTheme</button>
+      <div className="togg" >
+        <DarkModeToggle
+          onChange={()=>toggleTheme()}
+          checked={theme==='dark'}
+          size={80}
+        />
+      </div>
       <Header theme={theme}/>
       <ContactInfo theme={theme}/>
       <SocialIcons theme={theme}/>
