@@ -6,7 +6,7 @@ import {useState, useEffect} from "react";
 import DarkModeToggle from "react-dark-mode-toggle";
 
 function App() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
   const toggleTheme = () => {
     if (theme === 'light') {
       setTheme('dark');
@@ -14,6 +14,8 @@ function App() {
       setTheme('light');
     }
   };
+
+
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
