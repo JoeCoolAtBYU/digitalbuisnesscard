@@ -24,7 +24,7 @@ body {
 
 .contact {
     width: 317px;
-    height: 399px;
+    height: 425px;
     left: 116px;
     top: 361px;
     background: #1A1B21;
@@ -148,12 +148,116 @@ body {
     flex-grow: 0;
 }
 
+.aboutInterests {
+    width: 247px;
+    height: 201px;
+    left: 152px;
+    top: 535px;
+    text-align: left;
+    margin: 36px;
+}
+
+.about--title {
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.interests--title {
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 649px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.about--text {
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 561px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #DCDCDC;
+}
+
+.interests--text {
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 675px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
 
 .social-icons {
     width: 317px;
     height: 64px;
     left: 116px;
     top: 760px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+
     background: #161619;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.twitter-icon{
+    /*position: absolute;*/
+    left: 34.36%;
+    right: 61.09%;
+    top: 89.75%;
+    bottom: 7.37%;
+    width: 25px;
+    height: 25px;
+    /*margin: 8px;*/
+}
+
+.facebook-icon {
+    /*position: absolute;*/
+    left: 43.27%;
+    right: 52.18%;
+    top: 89.75%;
+    bottom: 7.37%;
+    width: 25px;
+    height: 25px;
+}
+.instagram-icon {
+    /*position: absolute;*/
+    left: 52.18%;
+    right: 43.27%;
+    top: 89.75%;
+    bottom: 7.37%;
+    width: 25px;
+    height: 25px;
+}
+.github-icon {
+    /*position: absolute;*/
+    left: 61%;
+    right: 34.45%;
+    top: 89.8%;
+    bottom: 7.32%;
+    width: 25px;
+    height: 25px;
 }

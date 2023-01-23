@@ -1,5 +1,6 @@
 import EmailIcon from "../images/emailIcon.png"
 import linkedInIcon from "../images/linkedInIcon.png"
+import AboutInterests from "../components/AboutInterest";
 
 export default function ContactInfo() {
   return (
@@ -22,7 +23,7 @@ export default function ContactInfo() {
           </div>
         </a>
       </div>
-
+<AboutInterests/>
     </div>
   )
 }
