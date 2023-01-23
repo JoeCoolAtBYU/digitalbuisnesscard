@@ -6,11 +6,11 @@ import github from "../images/GitHub Icon.png"
 export default function SocialIcons(theme) {
   return (
     <div className={`social-icons ${theme.theme}`}>
-      <div className={`twitter-icon ${theme.theme}`}>
-        <a href="https://twitter.com">
-          <img src={twitter} alt="twitter icon"/>
-        </a>
-      </div>
+      {/*<div className={`twitter-icon ${theme.theme}`}>*/}
+      {/*  <a href="https://twitter.com">*/}
+      {/*    <img src={twitter} alt="twitter icon"/>*/}
+      {/*  </a>*/}
+      {/*</div>*/}
 
       <div className={`facebook-icon ${theme.theme}`}>
       <a href="https://www.facebook.com/joshua.barnett.31392/">
@@ -23,7 +23,7 @@ export default function SocialIcons(theme) {
       </a>
       </div>
       <div className={`github-icon ${theme.theme}`}>
-      <a href="https://twitter.com">
+      <a href="https://github.com/JoeCoolAtBYU">
         <img src={github} alt="twitter icon"/>
       </a>
       </div>
