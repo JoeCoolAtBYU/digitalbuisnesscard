@@ -3,27 +3,26 @@ import facebook from "../images/Facebook Icon.png"
 import instagram from "../images/Instagram_Icon.png"
 import github from "../images/GitHub Icon.png"
 
-export default function SocialIcons() {
+export default function SocialIcons(theme) {
   return (
-    <div className="social-icons">
-      <div className="twitter-icon">
+    <div className={`social-icons ${theme.theme}`}>
+      <div className={`twitter-icon ${theme.theme}`}>
         <a href="https://twitter.com">
           <img src={twitter} alt="twitter icon"/>
         </a>
       </div>
 
-      <div className="facebook-icon">
+      <div className={`facebook-icon ${theme.theme}`}>
       <a href="https://www.facebook.com/joshua.barnett.31392/">
         <img src={facebook} alt="facebook icon"/>
       </a>
       </div>
-      <div className="instagram-icon">
+      <div className={`instagram-icon ${theme.theme}`}>
       <a href="https://www.instagram.com/joecoolatbyu/">
         <img src={instagram} alt="instagram icon"/>
-        {/*<FontAwesomeIcon icon="fa-brands fa-square-instagram" />*/}
       </a>
       </div>
-      <div className="github-icon">
+      <div className={`github-icon ${theme.theme}`}>
       <a href="https://twitter.com">
         <img src={github} alt="twitter icon"/>
       </a>

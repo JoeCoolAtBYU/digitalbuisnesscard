@@ -1,13 +1,11 @@
 .App {
     text-align: center;
-    color: white;
     font-family: inter, sans-serif;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
-
 }
 
 body {
@@ -19,6 +17,7 @@ body {
     height: 317px;
     left: 116px;
     top: 44px;
+    margin-bottom: -4px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -27,7 +26,15 @@ body {
     height: 425px;
     left: 116px;
     top: 361px;
+}
+
+.contact.dark {
     background: #1A1B21;
+    color: #fff;
+}
+
+.contact.light {
+    background: #F5F5F5;
 }
 
 .contact--name {
@@ -37,7 +44,6 @@ body {
     font-weight: 700;
     font-size: 16.4401px;
     line-height: 20px;
-    color: #FFFFFF;
 }
 
 .contact--title {
@@ -48,12 +54,27 @@ body {
     color: #F3BF99;
 }
 
+.contact--title.dark {
+    color: #F3BF99;
+}
+
+.contact--title.light {
+    color: #F47D27;
+}
+
 .contact--email {
     font-style: normal;
     font-weight: 400;
     font-size: 10.24px;
     line-height: 150%;
+}
+
+.contact--email.dark {
     color: #F5F5F5;
+}
+
+.contact--email.light {
+    color: #4A4E74;
 }
 
 .contact--buttons {
@@ -166,20 +187,14 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
+}
+
+.about--title.dark {
     color: #F5F5F5;
 }
 
-.interests--title {
-    width: 242.71px;
-    height: 21px;
-    left: 152px;
-    top: 649px;
-    font-style: normal;
-    font-weight: 700;
-    margin-top: 40px;
-    font-size: 16px;
-    line-height: 150%;
-    color: #F5F5F5;
+.about--title.light {
+    color: #2B283A;
 }
 
 .about--text {
@@ -192,8 +207,34 @@ body {
     font-weight: 400;
     font-size: 10.24px;
     line-height: 150%;
+}
 
+.about--text.dark {
     color: #DCDCDC;
+}
+
+.about--text.light {
+    color: #4A4E74;
+}
+
+.interests--title {
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 649px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.interests--title.dark {
+    color: #F5F5F5;
+}
+
+.interests--title.light {
+    color: #2B283A;
 }
 
 .interests--text {
@@ -205,7 +246,14 @@ body {
     font-weight: 400;
     font-size: 10.24px;
     line-height: 150%;
+}
+
+.interests--text.dark {
     color: #DCDCDC;
+}
+
+.interests--text.light {
+    color: #4A4E74;
 }
 
 .social-icons {
@@ -218,20 +266,24 @@ body {
     gap: 12px;
     justify-content: center;
     align-items: center;
-
-    background: #161619;
     border-radius: 0px 0px 10px 10px;
 }
 
-.twitter-icon{
-    /*position: absolute;*/
+.social-icons.dark {
+    background: #161619;
+}
+
+.social-icons.light {
+    background: #D5D4D8;
+}
+
+.twitter-icon {
     left: 34.36%;
     right: 61.09%;
     top: 89.75%;
     bottom: 7.37%;
     width: 25px;
     height: 25px;
-    /*margin: 8px;*/
 }
 
 .facebook-icon {
@@ -243,6 +295,7 @@ body {
     width: 25px;
     height: 25px;
 }
+
 .instagram-icon {
     /*position: absolute;*/
     left: 52.18%;
@@ -252,6 +305,7 @@ body {
     width: 25px;
     height: 25px;
 }
+
 .github-icon {
     /*position: absolute;*/
     left: 61%;
