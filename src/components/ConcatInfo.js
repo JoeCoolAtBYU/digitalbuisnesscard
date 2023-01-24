@@ -10,7 +10,7 @@ export default function ContactInfo(props) {
       <h4 className={`contact--title ${props.theme}`}>Software Engineer</h4>
       <p className={`contact--email ${props.theme}`}>joecoolatbyu@hotmail.com</p>
       <div className={`contact--buttons ${props.theme}`}>
-        <a href="mailto:joecoolatbyu@hotmail.com?subject=From%20Business%20Card">
+        <a href="mailto:joecoolatbyu@hotmail.com"> {/*"mailto:joecoolatbyu@hotmail.com?subject=From%20Business%20Card"*/}
           <div className={`contact--email--btn ${props.theme}`}>
             <img src={EmailIcon} alt={`button to send email`} className={`email--icon ${props.theme}`}/>
             <p>Email</p>
